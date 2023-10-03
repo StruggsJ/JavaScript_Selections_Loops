@@ -1,9 +1,12 @@
 console.log("Hello World!\n==========\n");
 
+
 // Exercise 1 Section
 console.log("EXERCISE 1:\n==========\n");
 
-for (let numbers = 0; numbers <= 100; numbers++)
+
+
+for (numbers = 0; numbers <= 100; numbers++)
 {
     if (numbers % 2 == 0)
     {
@@ -16,10 +19,11 @@ for (let numbers = 0; numbers <= 100; numbers++)
 }
 
 
+
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
 
-for (let numbers = 0; numbers <= 100; numbers++)
+for (numbers = 0; numbers <= 100; numbers++)
 {
     if (numbers % 3 == 0 && numbers % 5 == 0)
     {
@@ -52,13 +56,16 @@ while (numWhile <= 100)
 {
     if (numWhile % 2 == 0)
     {
-        numWhile++
+        
     }
     else 
     {
         console.log(`${numWhile}`);
-        numWhile++;
+        
     }
+    
+    numWhile++;
+
 }
 
 console.log("Exercise 1: Do/While Loop");
@@ -68,13 +75,16 @@ let numDoWhile = 0;
 do {
     if (numDoWhile % 2 == 0)
     {
-        numDoWhile++
+        
     }
     else 
     {
         console.log(`${numDoWhile}`);
-        numDoWhile++;
+        
     }
+
+    numDoWhile++;
+
 } while (numDoWhile <= 100)
 
 console.log("\n===============\n");
@@ -90,22 +100,25 @@ while (whileFizzBuzz <= 100)
     if (whileFizzBuzz % 3 == 0 && whileFizzBuzz % 5 == 0)
     {
         console.log('FIZZBUZZ');
-        whileFizzBuzz++;
+        
     }
     else if (whileFizzBuzz % 5 == 0)
     {
         console.log('BUZZ');
-        whileFizzBuzz++;
+        
     }
     else if (whileFizzBuzz % 3 == 0)
     {
         console.log('FIZZ');
-        whileFizzBuzz++
+        
     }
     else 
     {
-        whileFizzBuzz++
+        
     }
+
+    whileFizzBuzz++;
+
 }
 
 console.log("Exercise 2: Do/While Loop");
@@ -116,22 +129,25 @@ do {
     if (doWhileFizzBuzz % 3 == 0 && doWhileFizzBuzz % 5 == 0)
     {
         console.log('FIZZBUZZ');
-        doWhileFizzBuzz++;
+        
     }
     else if (doWhileFizzBuzz % 5 == 0)
     {
         console.log('BUZZ');
-        doWhileFizzBuzz++;
+        
     }
     else if (doWhileFizzBuzz % 3 == 0)
     {
         console.log('FIZZ');
-        doWhileFizzBuzz++
+        
     }
     else 
     {
-        doWhileFizzBuzz++
+        
     }
+
+    doWhileFizzBuzz++;
+
 } while (doWhileFizzBuzz <= 100)
 
 console.log("EXERCISE 4:\n==========\n");
@@ -139,8 +155,6 @@ console.log("EXERCISE 4:\n==========\n");
 let value = Math.round((Math.random() * 500)); // creates a random number between 0 and 500
 let n = Math.round(Math.random() * (500 - 100) + 100); // creates a random number between 100 and 500
 let foundNumber = false;
-
-
 
 for (let position = 0; position <= n; position++)
 {
